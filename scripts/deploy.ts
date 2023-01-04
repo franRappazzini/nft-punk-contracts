@@ -6,7 +6,7 @@ async function main() {
 
   await nftPunk.deployed();
 
-  console.log(`NFT Punk deployed: ${nftPunk.address}`); // 0x1e833cD3Ac84dAaF02fDa3C1729a2b9f16111256
+  console.log(`NFT Punk deployed: ${nftPunk.address}`); // 0x2B2d85737B4A352A4000b055FF0a2B4Db2e7051b
 }
 
 // We recommend this pattern to be able to use async/await everywhere

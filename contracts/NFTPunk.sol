@@ -13,7 +13,7 @@ contract NFTPunk is ERC721Enumerable, NFTPunkDNA {
 
     Counters.Counter private tokenId;
     uint256 public maxSupply;
-    mapping(uint256 => uint256) tokenDNA;
+    mapping(uint256 => uint256) public tokenDNA;
 
     constructor(uint256 _maxSupply) ERC721("NFT Punk", "NFTP") {
         maxSupply = _maxSupply;
